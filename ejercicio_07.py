@@ -36,7 +36,7 @@ if promedio_student1 < 70 and promedio_student2 < 70 and promedio_student3 < 70 
 print("Calificaciones mmodificandose")
 
 if curva_student:
-    print("¡Todos los estudiantes tienen promedio menor de 70! Aplicando curva de +5 puntos.")
+    print("Todos los estudiantes tienen promedio menor de 70. Aplicando curva de +5 puntos.")
     curva1_student1 = min(grade1_student1 + 5, 100)
     curva2_student1 = min(grade2_student1 + 5, 100)
     curva3_student1 = min(grade3_student1 + 5, 100)

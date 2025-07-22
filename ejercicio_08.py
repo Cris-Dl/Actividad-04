@@ -1,7 +1,6 @@
 #Calculadora de rumbo entre puntos cardinales
 user_coordinate1 = str(input("Ingrese la primera coordenada (norte, sur, este, oeste): ")).lower()
 user_coordinate2 = str(input("Ingrese la segunda coordenada (norte, sur, este, oeste): ")).lower()
-#Norte
 if user_coordinate1 == "norte":
     if user_coordinate2 == "norte":
         print("Continue al norte")
