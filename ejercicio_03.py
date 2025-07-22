@@ -1,5 +1,5 @@
 #Sistema de autenticación avanzado con penalización
-user_list = {"Juan Jose":"admin123", "Jorge Tello":"12345", "Santiago Batz":"123456"}
+user_list = {"Juan Jose":"admin123", "Jorge Tello":"12345", "Santiago Batz":"sisanti123"}
 user_attempt = str(input("Ingrese su usuario: "))
 if user_attempt in user_list:
     user_password = input("Ingrese su contraseña: ")

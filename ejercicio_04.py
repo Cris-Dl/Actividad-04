@@ -10,16 +10,18 @@ if user_tip == "si":
     user_tip = int(input("Cuanto quiere dejar (en porcentaje de su compra): "))
     user_tip = user_tip*1/100 * total_prices
 elif user_tip == "no":
+    user_tip = 0
     print()
 custome_card = str(input("Tiene tarjeta de cliente frecuente: ")).lower()
 if custome_card == "si":
     custome_card = 0.10*total_prices
 elif custome_card == "no":
+    custome_card = 0
     print()
 iva_prices = 0.12*total_prices
 print("Su total se desglosa de la siguiente manera: ")
 print("Subtotal:Q", total_prices)
 print("Costo por propina:Q", user_tip)
-print("Tiene un descuento de Q", custome_card, "por tu tarjeta de usuario frecuente")
+print("Tiene un descuento de Q", custome_card, "por tarjeta de usuario frecuente")
 print("Cantidad por IVA:Q ", iva_prices)
 print("Total:Q", total_prices + user_tip - custome_card + iva_prices)
